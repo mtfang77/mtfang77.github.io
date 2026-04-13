@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Mengting Fang"
+  page-footer:
+    center: "© Mengting Fang 2026"
   navbar:
     left:
       - href: index.qmd
