@@ -6,6 +6,7 @@ website:
   title: "Mengting Fang"
   page-footer:
     center: "© Mengting Fang 2026"
+  favicon: images/baobao/Baobao_icon.png
   navbar:
     left:
       - href: index.qmd
