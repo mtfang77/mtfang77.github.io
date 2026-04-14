@@ -39,6 +39,10 @@
   body:not(.fun-page) .nav-footer p {
     text-align: center !important;
   }
+
+  body.quarto-dark b {
+    color: #6ab040 !important;
+  }
   
   body.quarto-dark nav {
     background-color: #6ab040 !important;
