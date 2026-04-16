@@ -35,13 +35,6 @@
     "text": "Conference Papers\nFang, M., Zhou, Z., Chen, S. Y., & McClelland, J. L. (2018). Can a recurrent neural network learn to count things?. Annual Meeting of the Cognitive Science Society 2018.\nChen, S. Y., Zhou, Z., Fang, M., & McClelland, J. L. (2018). Can generic neural networks estimate numerosity like humans?. Annual Meeting of the Cognitive Science Society 2018.\nSun, Y., Fang, M., Wang, X., & Diao, S. (2017). GubaLex: Guba-oriented sentiment lexicon for big texts in finance. 13th International Conference on Semantics, Knowledge and Grids. IEEE."
   },
   {
-    "objectID": "dog.html",
-    "href": "dog.html",
-    "title": "Shenshen & Ben Fang",
-    "section": "",
-    "text": "🚧 Under construction — check back soon! 🚧"
-  },
-  {
     "objectID": "talks.html",
     "href": "talks.html",
     "title": "Talks",
@@ -56,9 +49,30 @@
     "text": "Penn Grad Talk — Finalist (2026) University of Pennsylvania\n\nPenn Three Minute Thesis (3MT) — Audience Choice Winner (2026) University of Pennsylvania"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "I study how the brain integrates noisy sensory information to make decisions, using Bayesian modeling, information theory, and neural data analysis."
+  },
+  {
+    "objectID": "research.html#perceptual-decision-making",
+    "href": "research.html#perceptual-decision-making",
+    "title": "Research",
+    "section": "Perceptual Decision-Making",
+    "text": "Perceptual Decision-Making\n\nResource-rational evidence accumulation Sequential integration of noisy sensory signals dynamically controlled by optimal resource allocation.\n\nAbstract Paper Code\n\nYour abstract here.\n\n\n\n\nCategorical representations in evidence accumulation How categorical structure shapes sequential perceptual decisions.\n\nAbstract Paper\n\nPerceptual decision-making often involves sequential evidence accumulation. Previous work has shown that category-level stimulus representations can play an important role in perceptual inference, even when not explicitly required. Here, we conducted a visual discrimination task to investigate how categorical representations can affect sequential evidence accumulation. Subjects discriminated the angular position (CW/CCW) of an unknown source relative to a reference based on 8 stimulus samples drawn from a Gaussian with fixed variance centered at the source position. Stimuli were presented in rapid sequence (150ms ISI). Subjects reported their categorical choice by pressing the corresponding button on a gamepad. After each trial, visual feedback displayed both the correct category and the source position. The reference was adjusted using a staircase procedure. All subjects performed the task under two conditions. In the first condition, they were asked to make a preliminary decision based on partial evidence within a 1.75s time-window, before then making their final choice after seeing all samples. The preliminary decision occurred either before the 1st sample (upfront guess) or after the 2nd, 4th, or 6th sample in the sequence. The four choice positions were randomly interleaved in each block. In the second condition (control), subjects were tested with the exact same sample sequences and reference positions as in the first condition, but simply maintained center fixation instead of making a preliminary decision. In contrast to the first condition, the reference was only shown for the final decision. Both conditions were tested in alternating blocks. Our results show that being engaged in a preliminary decision against a reference significantly improves subjects’ final decision performance compared to the control condition. This suggests that the formation of categorical stimulus representations may be crucial for accurate and robust sequential evidence accumulation."
+  },
+  {
+    "objectID": "research.html#multivariate-brain-connectivity",
+    "href": "research.html#multivariate-brain-connectivity",
+    "title": "Research",
+    "section": "Multivariate Brain Connectivity",
+    "text": "Multivariate Brain Connectivity\n\nPyMVPD: A toolbox for multivariate pattern dependence Your one sentence here.\n\nAbstract Paper Code\n\nCognitive tasks engage multiple brain regions. Studying how these regions interact is key to understand the neural bases of cognition. Standard approaches to model the interactions between brain regions rely on univariate statistical dependence. However, newly developed methods can capture multivariate dependence. Multivariate pattern dependence (MVPD) is a powerful and flexible approach that trains and tests multivariate models of the interactions between brain regions using independent data. In this article, we introduce PyMVPD: an open source toolbox for multivariate pattern dependence. The toolbox includes linear regression models and artificial neural network models of the interactions between regions. It is designed to be easily customizable. We demonstrate example applications of PyMVPD using well-studied seed regions such as the fusiform face area (FFA) and the parahippocampal place area (PPA). Next, we compare the performance of different model architectures. Overall, artificial neural networks outperform linear regression. Importantly, the best performing architecture is region-dependent: MVPD subdivides cortex in distinct, contiguous regions whose interaction with FFA and PPA is best captured by different models."
+  },
+  {
+    "objectID": "dog.html",
+    "href": "dog.html",
+    "title": "Shenshen & Ben Fang",
     "section": "",
     "text": "🚧 Under construction — check back soon! 🚧"
   },

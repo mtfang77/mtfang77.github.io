@@ -11,13 +11,13 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: About me
+      - href: research.qmd
+        text: Research
       - href: publications.qmd
         text: Publications
       - href: talks.qmd
         text: Talks
-      - href: projects.qmd
-        text: Projects
       - href: cv.qmd
         text: CV
       - text: "More 🐾"
