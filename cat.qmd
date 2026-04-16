@@ -36,14 +36,45 @@ For collaboration, contact my purrsonal assistant, Mengting 🐾
 
 <div id="secret-album" style="display: none; text-align: center; margin-top: 20px; opacity: 0; transition: opacity 0.8s ease;">
   <p><em>You found Baobao's secret archive. Tell no one.</em> 🤫</p>
-  ![](images/Baobao/Baobao_secret1.jpg){width=45%}
-  ![](images/Baobao/Baobao_secret2.jpg){width=45%}
+  ![](images/baobao/Baobao_secret1.JPG){width=45%}
+  ![](images/baobao/Baobao_secret2.JPG){width=45%}
+</div>
+
+<div id="surprise" style="display: none; text-align: center; margin-top: 20px; opacity: 0; transition: opacity 0.8s ease;">
+  <p style="text-align: center !important;">
+    🐾 You clicked FIVE times.<br><br>
+    <b>FIVE.</b><br><br>
+    You are obsessed with me.<br>
+    Honestly? Good taste.<br><br>
+    <b>The world is mine</b> 👑
+  </p>
+  ![](images/baobao/Baobao_topSecret.jpg){width=60%}
 </div>
 
 <script>
+let clickCount = 0;
+
 function toggleAlbum() {
   const album = document.getElementById('secret-album');
   const btn = document.getElementById('toggle-btn');
+  const surprise = document.getElementById('surprise');
+  clickCount++;
+
+  if (clickCount === 5) {
+    surprise.style.display = 'block';
+    setTimeout(() => surprise.style.opacity = '1', 10);
+    btn.textContent = 'You passed the test. Behold my glory.';
+    setTimeout(() => {
+      surprise.style.opacity = '0';
+      setTimeout(() => {
+        surprise.style.display = 'none';
+        btn.textContent = '🐾 Psst... click me if you dare 🐾';
+        clickCount = 0;
+      }, 800);
+    }, 7000);
+    return;
+  }
+
   if (album.style.display === 'none') {
     album.style.display = 'block';
     setTimeout(() => album.style.opacity = '1', 10);
