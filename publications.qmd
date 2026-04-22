@@ -6,7 +6,7 @@ $\dagger$ Equal contribution.
 
 ## Research Articles
 
-**Fang, M.** $\dagger$, Mao, J.$\dagger$, Donner, T. H., & Stocker, A. A. (2026). [The resource-rational dynamics of evidence accumulation](files/papers/PET_2024_01-15.pdf). *bioRxiv.*
+**Fang, M.** $\dagger$, Mao, J.$\dagger$, Donner, T. H., & Stocker, A. A. (2026). [The resource-rational dynamics of evidence accumulation](https://www.biorxiv.org/content/10.64898/2026.04.15.718716v1). *bioRxiv.*
 <!-- 
 **Fang, M.** $\dagger$, Mao, J.$\dagger$, Donner, T. H., & Stocker, A. A. (2026). The resource-rational dynamics of evidence accumulation. *bioRxiv 2026.04.15.718716.* 
 -->
