@@ -14,7 +14,7 @@ about:
 ---
 
 <p style="text-align: center !important;">
-<b>Security Guard</b> at <b>the Meowtropolitan Museum of Art</b> in New York City.<br>
+<b>Security Guard</b> at <b>the Meowtropolitan Museum of Art</b> in New York City<br>
 
 I collect tennis balls, sticks, peacock feathers, and anything Mengting brings to me.<br>
 
